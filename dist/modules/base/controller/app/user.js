@@ -97,7 +97,7 @@ __decorate([
 BaseApiUserController = __decorate([
     decorator_1.Provide(),
     core_1.CoolController({
-        prefix: '/api/user',
+        prefix: '/app/user',
         api: ['delete', 'update', 'info'],
         entity: user_1.BaseSysUserEntity,
         service: user_2.BaseApiUserService,

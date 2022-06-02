@@ -74,7 +74,7 @@ __decorate([
 NewsArticleController = __decorate([
     decorator_1.Provide(),
     core_1.CoolController({
-        prefix: '/api/news/article',
+        prefix: '/app/news/article',
         api: ['list', 'page'],
         entity: article_1.NewsArticleEntity,
         service: article_2.NewsArticleApiService,

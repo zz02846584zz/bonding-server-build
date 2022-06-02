@@ -19,7 +19,7 @@ let IndustryCategoryController = class IndustryCategoryController extends core_1
 IndustryCategoryController = __decorate([
     decorator_1.Provide(),
     core_1.CoolController({
-        prefix: '/api/industry/category',
+        prefix: '/app/industry/category',
         api: ['list'],
         entity: category_1.IndustryCategoryEntity,
         service: category_2.IndustryCategoryService,

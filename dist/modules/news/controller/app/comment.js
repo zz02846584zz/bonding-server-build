@@ -43,7 +43,7 @@ __decorate([
 NewsCommentApiController = __decorate([
     decorator_1.Provide(),
     core_1.CoolController({
-        prefix: '/api/news/article/comment',
+        prefix: '/app/news/article/comment',
         api: ['add', 'delete', 'update', 'page'],
         entity: comment_1.NewsArticleCommentEntity,
         service: comment_2.NewsCommentApiService,

@@ -32,7 +32,7 @@ __decorate([
 UserCollectionApiController = __decorate([
     decorator_1.Provide(),
     core_1.CoolController({
-        prefix: '/api/collection',
+        prefix: '/app/collection',
         api: ['add', 'delete', 'page'],
         entity: collection_1.UserCollectionEntity,
         service: api_1.UserCollectionApiService,
