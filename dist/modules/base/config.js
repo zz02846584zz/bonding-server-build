@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const admin_auth_1 = require("./middleware/admin-auth");
-const api_auth_1 = require("./middleware/api-auth");
+const app_auth_1 = require("./middleware/app-auth");
 const log_1 = require("./middleware/log");
 /**
  * 模块的配置
@@ -15,7 +15,7 @@ exports.default = () => {
         // 中间件
         globalMiddlewares: [
             admin_auth_1.BaseAdminAuthMiddleware,
-            api_auth_1.BaseApiAuthMiddleware,
+            app_auth_1.BaseAppAuthMiddleware,
             log_1.BaseLogMiddleware,
         ],
         // jwt 生成解密token的

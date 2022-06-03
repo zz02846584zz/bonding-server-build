@@ -4,7 +4,7 @@ import { CacheManager } from '@midwayjs/cache';
 /**
  * 權限校驗
  */
-export declare class BaseApiAuthMiddleware implements IMiddleware<Context, NextFunction> {
+export declare class BaseAppAuthMiddleware implements IMiddleware<Context, NextFunction> {
     prefix: any;
     jwtConfig: any;
     cacheManager: CacheManager;
